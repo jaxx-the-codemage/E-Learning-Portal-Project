@@ -1,0 +1,318 @@
+body{
+	text-align: left;
+}
+p{
+	font-family: garamond, sans-serif;
+}
+.nav{
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
+	margin-top: 3px;
+	margin-bottom: 0px;
+}
+.nav a{
+	color: black;
+	text-decoration: none;			
+	padding: 15px 50px;	
+}
+.nav a:hover{
+	background-color: #888F8C;
+	color: #CCDEB5;
+}
+.info{
+	display: flex;
+}
+.info a{
+	text-align: right;
+	color: black;
+	text-decoration: none;			
+	padding: 10px 50px;
+	text-transform: capitalize;
+	font-family: Arial, sans-serif;
+}
+.intro table{
+	background-color: #B0A9B0;
+	border-radius: 10px;
+}
+.intro p{
+	padding-left: 8px;
+	font-family: garamond, sans-serif;
+	text-align: left;
+}
+
+
+.instructor{
+	border-radius: 10px;
+	background-color: #999999;
+	width: 50%;
+	margin: 50px auto;
+	padding: 50px;
+}
+
+.input{
+	margin-bottom: 50px;
+}
+.input input{
+	padding: 15px 2px;
+	width: 60%;
+	border-radius: 10px;
+	border: solid 1px black;
+}
+
+button[type='submit']{
+	padding: 15px 2px;
+	width: 40%;
+	border-radius: 10px;
+	border: solid 1px black;
+	background-color: #E3E3E3;
+}
+button[type='submit']:hover{
+	background-color: grey;
+	color: white;
+}
+
+.help{
+	width: 80%;
+	text-align: left;
+}
+.help h2{
+	text-align: left;
+}
+.help p{
+	text-align: left;
+	font-size: 20px;
+}
+
+.contact{
+	width: 80%;
+	text-align: left;
+}
+.contact h2{
+	text-align: left;
+}
+.contact p{
+	text-align: left;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.course{
+	text-align: left;
+	margin-left: 30px;
+}
+
+.course p{
+	font-size: 20px;
+	line-height: 1.5;
+	text-align: left;
+}
+
+.dash{
+	display: flex;
+}
+.left{
+	background-color: #ABABAB;
+	width: 20%;
+}
+.left ul{
+	list-style-type: none;
+	margin-left: 20px;
+	padding-left: 20px;
+}
+.left ul li{
+	margin-bottom: 55px;
+	font-family: garamond, sans-serif;
+	font-size: 20px;
+}
+.left a{
+	text-decoration: none;
+	color: black;
+}
+.left a:hover{
+	font-weight: bold;
+	color: navy;
+}
+.right{
+	width: 80%;
+	margin-left: 10px;
+	border: solid 1.5px black;
+	text-align: center;
+}
+.right h1,h2,h3,p{
+	margin-left: 30px;
+	padding: 10px;
+	text-align: left;
+}
+
+.content h1,h2,h3,p{
+	text-align: center;
+}
+.content table{
+	width: 60%;
+	margin: 10px auto;
+	border-radius: 10px;
+	padding: 10px;
+}
+.content input[type="text"]{
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	width: 200px;
+}
+.content input[type="text"]:focus{
+	background-color: #ADADAD;
+	color: white;
+}
+.content input[type="date"]{
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	width: 200px;
+}
+.content input[type="submit"]{
+	padding: 10px;
+	width: 200px;
+	border-radius: 10px;
+	background-color: white;
+	border:solid 1px black;
+}
+.content input:hover{
+	background-color: #BFBFBF;
+}
+.content select{
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	width: 300px;
+}
+.content form {
+  margin-bottom: 40px;
+}
+
+
+.upd input[type="text"]:{
+	padding: 5px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	width: 90px;
+}
+.upd input[type="date"]{
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	width: 120px;
+}
+.upd button[type="submit"]{
+	padding: 10px;
+	width: 200px;
+	margin-bottom: 25px;
+	border-radius: 10px;
+	background-color: white;
+	border:solid 1px black;;
+}
+.content button[type="submit"]:hover{
+	background-color: #BFBFBF;
+}
+.show button[type="submit"]{
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	width: 80px;
+}
+
+.contents h1,h2,h3,p{
+	text-align: center;
+}
+.contents label{
+	font-size: 18px;
+}
+.contents input[type="file"]{
+	padding: 10px;
+	width: 400px;
+	border-radius: 10px;
+	font-size: 16px;
+}
+.contents input[type="text"]{
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	width: 370px;
+}
+.contents input[type="text"]:focus{
+	background-color: #ADADAD;
+	color: white;
+}
+.contents input[type="submit"]{
+	padding: 10px;
+	width: 100px;
+	border-radius: 10px;
+	background-color: white;
+	border:solid 1px black;
+	font-size: 15px;
+	margin-top: 15px;
+}
+.contents input[type="file"]:hover{
+	background-color: none;
+}
+.contents form {
+  margin-bottom: 40px;
+}
+.contents select{
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	width: 370px;
+	font-size: 15px;
+}
+.contents input[type="text"]:hover{
+	background-color: #BFBFBF;
+}
+.contents input[type="submit"]:hover{
+	background-color: #BFBFBF;
+}
+.content button[type="submit"]{
+	padding: 10px;
+	width: 100px;
+	border-radius: 10px;
+	background-color: white;
+	border:solid 1px black;
+	font-size: 13px;
+	margin-top: 15px;
+	margin-left: 40px;
+}
+.contents button[type="submit"]:hover{
+	background-color: #BFBFBF;
+}
+.contents table{
+	width: 70%;
+	margin: 10px auto;
+	border-radius: 10px;
+	padding: 10px;
+}
+.contents td{
+	margin-right: 30px;
+}
+.contents th{
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+.container{
+	display: flex;
+	text-align: left;
+	margin-left: 20px;
+}
+.d1{
+	width: 350px;
+	text-align: center;
+	background-color: #A8A8A8;
+	border: solid 1px black;
+	border-radius: 10px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+.jump a{
+	font-size: 18px;
+	color: black;
+	text-decoration: none;
+}
